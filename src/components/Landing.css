@@ -68,6 +68,11 @@ p {
     padding: 1em;
 }
 
+.img-text h2 {
+    margin: 0px;
+    margin-bottom: .15em;
+}
+
 .contact-butt {
     margin: 1em;
     font-family: Georgia, serif;
