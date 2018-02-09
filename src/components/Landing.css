@@ -1,0 +1,88 @@
+#icon-name {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.landing {
+    min-height: 100vh;
+}
+
+.nav-home {
+    width: 40px;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: .90em;
+}
+
+.land-menu {
+    margin-left: .55em;
+    text-align: center;
+}
+
+.pnumber {
+    background-color: gray;
+    padding: .3em;
+}
+
+.pnumber h3 {
+    margin: 0px;
+    margin-left: .7em;
+}
+
+.land-img {
+    width: 100vw;
+    height: 63vh;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+}
+
+.desk-land-img {
+    display: none;
+}
+
+.land-bot {
+    position: absolute;
+    bottom: .01%;
+    left: 50%;
+    color: black;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 83vw;
+}
+
+.land-bot img {
+    margin: .25em;
+    width: 1.5em;
+}
+
+.land-bot h6 {
+    margin: 0px;
+}
+
+.img-text {
+    width: 63vw;
+    padding: 1em;
+}
+
+.contact-butt {
+    margin: 1em;
+    font-family: Georgia, serif;
+}
+
+@media (min-width: 800px) {
+    .land-img {
+        display: none;
+    }
+
+    .desk-land-img {
+        width: 100vw;
+        height: 63vh;
+        z-index: -1;
+        position: absolute;
+        left: 0px;
+    }
+}
