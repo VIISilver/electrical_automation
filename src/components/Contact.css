@@ -1,0 +1,24 @@
+.contact {
+    color: black;
+    text-align: center;
+}
+
+.contact-main {
+    width: 65vw;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-main h2 {
+    color: #00bcd4;
+    margin-bottom: 1.75em;
+    text-decoration: underline;
+    text-decoration-color: #00bcd4;
+}
+
+.contact-main h5 {
+    font-size: 1em;
+    margin: .89em;
+}
