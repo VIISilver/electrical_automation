@@ -1,0 +1,19 @@
+.about {
+    color: black;
+    text-align: center;
+    height: 150vh;
+}
+
+.house-color {
+    width: 100vw;
+    margin-bottom: 2em;
+}
+
+.about-text {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 65vw;
+}
