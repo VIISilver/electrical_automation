@@ -5,10 +5,9 @@ import MenuBotton from './MenuButton';
 import RaisedButton from 'material-ui/RaisedButton';
 import lrgMtn from '../assets/mtn.JPG';
 import smallMtn from '../assets/small-mtn.jpg';
-import linkedin from '../assets/li-50.svg';
-import fb from '../assets/face-50.svg';
 import './Landing.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Bottom from '../components/functional/Bottom';
 
 class Landing extends Component {
 
@@ -27,9 +26,7 @@ class Landing extends Component {
                     <Link to='/contact'><RaisedButton className='contact-butt' label="Contact Us" primary={true} /></Link>
                 </div>
                 <div className='land-bot'>
-                    <img src={linkedin} alt='' />
-                    <img src={fb} alt='' />
-                    <h6>Copyright &copy; 2018 NStyle Electric &bull; All rights reserved</h6>
+                    <Bottom />
                 </div>
             </div>
         )

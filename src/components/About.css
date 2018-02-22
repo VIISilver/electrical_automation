@@ -1,0 +1,16 @@
+.about {
+    color: black;
+    text-align: center;
+}
+
+.house-color {
+    width: 100vw;
+    margin-bottom: 2em;
+}
+
+.about-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 65vw;
+}
