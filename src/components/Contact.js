@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
 import './Contact.css';
+import Bottom from './functional/Bottom';
 
 class Contact extends Component {
     render() {
@@ -18,6 +19,7 @@ class Contact extends Component {
                     <h5><b>Hours</b></h5>
                     <p>Monday - Friday: 8am - 5pm</p>
                 </div>
+                <Bottom />
             </div>
         );
     }

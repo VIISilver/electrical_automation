@@ -5,10 +5,8 @@
 
 .contact-main {
     width: 65vw;
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-main h2 {

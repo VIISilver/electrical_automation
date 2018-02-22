@@ -5,9 +5,10 @@ import './Bottom.css';
 
 const Bottom = () => (
     <div className='bottom'>
-        <img src={linkedin} alt='' />
-        <img src={fb} alt='' />
+        <a href="https://www.linkedin.com/" target="_blank" without rel="noopener noreferrer"><img src={linkedin} alt='' /></a>
+        <a href="https://www.facebook.com/" target="_blank" without rel="noopener noreferrer"><img src={fb} alt='' /></a>
         <h6>Copyright &copy; 2018 NStyle Electric &bull; All rights reserved</h6>
+        <hr/>
     </div>
 );
 
